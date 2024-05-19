@@ -1,4 +1,4 @@
-const userName = "Rob-"+Math.floor(Math.random() * 100000)
+const userName = "user-"+Math.floor(Math.random() * 100000)
 const password = "x";
 document.querySelector('#user-name').innerHTML = userName;
 
@@ -9,7 +9,7 @@ document.querySelector('#user-name').innerHTML = userName;
 // const socket = io.connect('https://localhost:8181/',{
     auth: {
         userName,password
-    }
+    }=
 })
 
 const localVideoEl = document.querySelector('#local-video');
@@ -19,7 +19,7 @@ let localStream; //a var to hold the local video stream
 let remoteStream; //a var to hold the remote video stream
 let peerConnection; //the peerConnection that the two clients use to talk
 let didIOffer = false;
-
+rrrrrrrrft
 let peerConfiguration = {
     iceServers:[
         {
